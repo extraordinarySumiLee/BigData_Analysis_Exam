@@ -1,0 +1,11 @@
+repository-A 에 코드를 추가하고 푸시하고 싶을때 
+
+cd repository-A
+git add .
+git commit -m "Fix bug in A"
+git push origin main
+
+repository-B 에서 최신 코드를 가져오고 싶을 때 
+
+cd ../repository-B   # B 폴더로 이동
+git pull origin main
